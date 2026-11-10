@@ -1,0 +1,31 @@
+day,stage,max_new_chats,max_warm_up_messages,max_total_messages,rules
+1,Start,0,8,8,Use the official WhatsApp or WhatsApp Business app. Chat only with people who know this number. Keep every chat two-way.
+2,Start,0,8,8,Reply to everyone who writes to you. Use random gaps and spread messages across the day.
+3,Start,0,8,8,No messages to strangers. Ask before you add anyone to a group.
+4,Start,0,8,8,Write each message yourself and vary the wording. No bulk forwards.
+5,Start,0,8,8,"Send in daytime hours only, for example 09:00 to 21:00. Nothing at night."
+6,Start,0,8,8,"Give the number to people who may want to reach you, so they can message you first."
+7,Start,0,8,8,End of week 1. Any warning from WhatsApp means stop. See Red flags in README.md.
+8,Build,0,18,18,Raise warm-up to about 18 messages a day. Still no new chats.
+9,Build,0,18,18,Reply to everyone who writes to you. Start the first-contact list: people who asked to hear from you or contacted you before.
+10,Build,0,18,18,"Use only the official app. Clean the list: remove duplicates, wrong numbers and anyone who has asked you to stop before."
+11,Build,0,18,18,Write first messages in your own words. Make each one personal. Add a clear opt-out line.
+12,Build,0,18,18,"Never send the same text to many people. Set sending hours for first contact: daytime on working days, in the recipient's time zone."
+13,Build,0,18,18,"Set pacing for first contact: random gaps of 30 to 90 seconds, batches of about 10, breaks of 1 to 5 minutes."
+14,Build,0,18,18,End of week 2. Decide how you will track replies for each number. Still no messages to strangers.
+15,Steady,0,28,28,"15-day minimum reached. Raise warm-up to about 28 a day. First contact is tomorrow. Check that the list, messages, hours and pacing are ready."
+16,First contact,15,28,43,"First contact: up to 15 new chats, warmest contacts first. Random gaps of 30 to 90 seconds. Answer every reply yourself."
+17,First contact,15,28,43,Up to 15 new chats. Carry on only if yesterday's chats got replies and nobody complained.
+18,First contact,15,28,43,"Remove anyone who asks you to stop, straight away. Never message them again."
+19,First contact,15,28,43,Keep warm-up running. Outreach should never be all the number does.
+20,First contact,15,28,43,Do not keep messaging people who do not reply. Each unanswered message may count toward a WhatsApp limit.
+21,First contact,15,28,43,Daytime on working days only. Nothing at night.
+22,First contact,15,30,45,Raise warm-up to about 30 a day. Keep new chats at 15 or fewer.
+23,First contact,15,30,45,"Check replies for each number. If replies drop, send fewer new chats, not more."
+24,First contact,15,30,45,Vary every first message. Never send identical text.
+25,First contact,15,30,45,Any warning from WhatsApp: stop all sending on every number. See Red flags in README.md.
+26,First contact,15,30,45,Message only people who expect to hear from you.
+27,First contact,15,30,45,Up to 15 new chats. Do not raise the number yet.
+28,First contact,15,30,45,Keep a second warmed number ready. Never put your only business number at risk.
+29,First contact,15,30,45,Up to 15 new chats. Keep warm-up running alongside.
+30,First contact,15,30,45,"Day 30. From here, follow After day 30 in README.md: grow slowly toward 30 new chats a day, reached no sooner than day 60."

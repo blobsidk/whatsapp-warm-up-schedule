@@ -1,0 +1,700 @@
+{
+  "name": "whatsapp-warm-up-schedule",
+  "version": "1.0.0",
+  "updated": "2026-11-10",
+  "license": "CC-BY-4.0",
+  "applies_to": "One brand-new number (under 3 months old) on the WhatsApp or WhatsApp Business app. Not the WhatsApp Business Platform (API).",
+  "status": "Recommendations, not WhatsApp limits. WhatsApp has not published a warm-up schedule or a daily message limit for app numbers. Warming up lowers the risk of a restriction or ban. It does not remove it.",
+  "definitions": {
+    "day": "Calendar day since warm-up started. Day 1 is the first day of warm-up chats. Rest days, such as weekends, still count toward the day number. Send nothing on a rest day.",
+    "max_warm_up_messages": "The maximum number of messages the number sends that day in two-way chats with people or numbers that know it and reply.",
+    "max_new_chats": "The maximum number of chats the number starts that day with people who have not chatted with it before. Follow-ups to people who have not replied count here too. 0 means none.",
+    "max_total_messages": "max_warm_up_messages plus max_new_chats. Replies to people who wrote to you first are not counted. Always answer them.",
+    "stage": "Start (days 1 to 7), Build (8 to 14), Steady (15 to 21), Prepare (22 to 30). In the 15-day plan, First contact replaces days 16 to 30.",
+    "age_months": "How long the number has been registered on WhatsApp. age_months_from is inclusive, age_months_to is exclusive. null means no upper bound.",
+    "whatsapp_daily_limit": "\"not published\" means WhatsApp has not published a daily limit for app numbers. It does not mean unlimited."
+  },
+  "setup_day_0": [
+    "Install the official WhatsApp or WhatsApp Business app on a phone. WhatsApp does not support unofficial apps.",
+    "Avoid recycled numbers if you can. WhatsApp says a new number can be banned because its previous owner broke the rules.",
+    "Complete the profile: photo, name and About line. On WhatsApp Business, also add the business name, description, hours, category and website.",
+    "Ask a few people who know you to save the number.",
+    "Line up your warm-up circle: people, or your own other numbers, that will chat with this number and reply.",
+    "Wait at least a day after registering before you link WhatsApp Web or any other device.",
+    "Running several numbers? Each one needs its own warm-up. Numbers that share one device and one IP address can be linked, so a ban on one can affect the others.",
+    "Write down day 1. Days are calendar days."
+  ],
+  "plans": [
+    {
+      "id": "recommended-30-day",
+      "title": "Recommended: 30 days of warm-up, first contact on day 31",
+      "warm_up_days": 30,
+      "first_contact_day": 31,
+      "days": [
+        {
+          "day": 1,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Use the official WhatsApp or WhatsApp Business app. Chat only with people who know this number. Keep every chat two-way."
+        },
+        {
+          "day": 2,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Reply to everyone who writes to you. Use random gaps and spread messages across the day."
+        },
+        {
+          "day": 3,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "No messages to strangers. Ask before you add anyone to a group."
+        },
+        {
+          "day": 4,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Write each message yourself and vary the wording. No bulk forwards."
+        },
+        {
+          "day": 5,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Send in daytime hours only, for example 09:00 to 21:00. Nothing at night."
+        },
+        {
+          "day": 6,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Give the number to people who may want to reach you, so they can message you first."
+        },
+        {
+          "day": 7,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "End of week 1. Any warning from WhatsApp means stop. See Red flags in README.md."
+        },
+        {
+          "day": 8,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Raise warm-up to about 18 messages a day. Still no new chats."
+        },
+        {
+          "day": 9,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Reply to everyone who writes to you. Let the other side start some chats."
+        },
+        {
+          "day": 10,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Use only the official app. WhatsApp says an unofficial app can get a number temporarily banned, and permanently banned if you keep using it."
+        },
+        {
+          "day": 11,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Running several numbers? Each one needs its own warm-up. Numbers on one device and one IP address can be linked."
+        },
+        {
+          "day": 12,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Never send the same text to many people. Vary every message."
+        },
+        {
+          "day": 13,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Random gaps, never a fixed interval. Spread messages over daytime hours, for example 09:00 to 21:00."
+        },
+        {
+          "day": 14,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "End of week 2. Still no messages to strangers, scraped numbers or bought lists."
+        },
+        {
+          "day": 15,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "15-day minimum reached. Raise warm-up to about 28 a day. On this plan, keep warming: no new chats yet."
+        },
+        {
+          "day": 16,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "Keep chats two-way. If someone asks you to stop, remove them and do not message them again."
+        },
+        {
+          "day": 17,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "Ask before you add anyone to a group. If they leave, let them go."
+        },
+        {
+          "day": 18,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "Think before you forward anything. No bulk forwards."
+        },
+        {
+          "day": 19,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "Spread the day's messages over daytime hours, not one burst."
+        },
+        {
+          "day": 20,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "Keep warming every number you plan to use. Warm a spare number too."
+        },
+        {
+          "day": 21,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "End of week 3. Check for any warning before you move on."
+        },
+        {
+          "day": 22,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "Raise warm-up to about 30 a day, the warm-up ceiling for a number this new. Start the first-contact list: people who asked to hear from you or contacted you before."
+        },
+        {
+          "day": 23,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "Clean the list. Remove duplicates, wrong numbers and anyone who has asked you to stop before."
+        },
+        {
+          "day": 24,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "Write first messages in your own words. Make each one personal. Add a clear opt-out line."
+        },
+        {
+          "day": 25,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "Set sending hours: daytime on working days, in the recipient's time zone. Nothing at night."
+        },
+        {
+          "day": 26,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "Set pacing for first contact: random gaps of 30 to 90 seconds, batches of about 10, breaks of 1 to 5 minutes."
+        },
+        {
+          "day": 27,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "Decide how you will track replies for each number. Messages that get no reply may count toward a WhatsApp limit."
+        },
+        {
+          "day": 28,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "Keep a second warmed number ready. Never put your only business number at risk."
+        },
+        {
+          "day": 29,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "If WhatsApp warned or restricted the number during warm-up, do not start outreach. See After a restriction or ban in README.md."
+        },
+        {
+          "day": 30,
+          "stage": "Prepare",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 30,
+          "rules": "30 days done. Tomorrow is first contact: up to 15 new chats, warmest contacts first."
+        }
+      ]
+    },
+    {
+      "id": "minimum-15-day",
+      "title": "Minimum: 15 days of warm-up, first contact on day 16",
+      "warm_up_days": 15,
+      "first_contact_day": 16,
+      "days": [
+        {
+          "day": 1,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Use the official WhatsApp or WhatsApp Business app. Chat only with people who know this number. Keep every chat two-way."
+        },
+        {
+          "day": 2,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Reply to everyone who writes to you. Use random gaps and spread messages across the day."
+        },
+        {
+          "day": 3,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "No messages to strangers. Ask before you add anyone to a group."
+        },
+        {
+          "day": 4,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Write each message yourself and vary the wording. No bulk forwards."
+        },
+        {
+          "day": 5,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Send in daytime hours only, for example 09:00 to 21:00. Nothing at night."
+        },
+        {
+          "day": 6,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "Give the number to people who may want to reach you, so they can message you first."
+        },
+        {
+          "day": 7,
+          "stage": "Start",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 8,
+          "max_total_messages": 8,
+          "rules": "End of week 1. Any warning from WhatsApp means stop. See Red flags in README.md."
+        },
+        {
+          "day": 8,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Raise warm-up to about 18 messages a day. Still no new chats."
+        },
+        {
+          "day": 9,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Reply to everyone who writes to you. Start the first-contact list: people who asked to hear from you or contacted you before."
+        },
+        {
+          "day": 10,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Use only the official app. Clean the list: remove duplicates, wrong numbers and anyone who has asked you to stop before."
+        },
+        {
+          "day": 11,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Write first messages in your own words. Make each one personal. Add a clear opt-out line."
+        },
+        {
+          "day": 12,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Never send the same text to many people. Set sending hours for first contact: daytime on working days, in the recipient's time zone."
+        },
+        {
+          "day": 13,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "Set pacing for first contact: random gaps of 30 to 90 seconds, batches of about 10, breaks of 1 to 5 minutes."
+        },
+        {
+          "day": 14,
+          "stage": "Build",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 18,
+          "max_total_messages": 18,
+          "rules": "End of week 2. Decide how you will track replies for each number. Still no messages to strangers."
+        },
+        {
+          "day": 15,
+          "stage": "Steady",
+          "max_new_chats": 0,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 28,
+          "rules": "15-day minimum reached. Raise warm-up to about 28 a day. First contact is tomorrow. Check that the list, messages, hours and pacing are ready."
+        },
+        {
+          "day": 16,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 43,
+          "rules": "First contact: up to 15 new chats, warmest contacts first. Random gaps of 30 to 90 seconds. Answer every reply yourself."
+        },
+        {
+          "day": 17,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 43,
+          "rules": "Up to 15 new chats. Carry on only if yesterday's chats got replies and nobody complained."
+        },
+        {
+          "day": 18,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 43,
+          "rules": "Remove anyone who asks you to stop, straight away. Never message them again."
+        },
+        {
+          "day": 19,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 43,
+          "rules": "Keep warm-up running. Outreach should never be all the number does."
+        },
+        {
+          "day": 20,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 43,
+          "rules": "Do not keep messaging people who do not reply. Each unanswered message may count toward a WhatsApp limit."
+        },
+        {
+          "day": 21,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 28,
+          "max_total_messages": 43,
+          "rules": "Daytime on working days only. Nothing at night."
+        },
+        {
+          "day": 22,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Raise warm-up to about 30 a day. Keep new chats at 15 or fewer."
+        },
+        {
+          "day": 23,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Check replies for each number. If replies drop, send fewer new chats, not more."
+        },
+        {
+          "day": 24,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Vary every first message. Never send identical text."
+        },
+        {
+          "day": 25,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Any warning from WhatsApp: stop all sending on every number. See Red flags in README.md."
+        },
+        {
+          "day": 26,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Message only people who expect to hear from you."
+        },
+        {
+          "day": 27,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Up to 15 new chats. Do not raise the number yet."
+        },
+        {
+          "day": 28,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Keep a second warmed number ready. Never put your only business number at risk."
+        },
+        {
+          "day": 29,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Up to 15 new chats. Keep warm-up running alongside."
+        },
+        {
+          "day": 30,
+          "stage": "First contact",
+          "max_new_chats": 15,
+          "max_warm_up_messages": 30,
+          "max_total_messages": 45,
+          "rules": "Day 30. From here, follow After day 30 in README.md: grow slowly toward 30 new chats a day, reached no sooner than day 60."
+        }
+      ]
+    }
+  ],
+  "after_day_30": [
+    {
+      "day_from": 31,
+      "day_to": 37,
+      "max_new_chats": 15,
+      "max_warm_up_messages": 30,
+      "max_total_messages": 45,
+      "rules": "First contact on day 31 if you followed the 30-day plan: up to 15 new chats, warmest contacts first. Hold at 15 for the week."
+    },
+    {
+      "day_from": 38,
+      "day_to": 44,
+      "max_new_chats": 18,
+      "max_warm_up_messages": 30,
+      "max_total_messages": 48,
+      "rules": "Grow only if new chats get replies and nobody complains or asks you to stop. Otherwise stay where you are or go lower."
+    },
+    {
+      "day_from": 45,
+      "day_to": 51,
+      "max_new_chats": 22,
+      "max_warm_up_messages": 30,
+      "max_total_messages": 52,
+      "rules": "Same test as last week. At most one follow-up to anyone who has not replied."
+    },
+    {
+      "day_from": 52,
+      "day_to": 59,
+      "max_new_chats": 25,
+      "max_warm_up_messages": 30,
+      "max_total_messages": 55,
+      "rules": "Same test as last week. Keep warm-up running alongside outreach."
+    },
+    {
+      "day_from": 60,
+      "day_to": null,
+      "max_new_chats": 30,
+      "max_warm_up_messages": 30,
+      "max_total_messages": 60,
+      "rules": "Up to 30 new chats a day while the number is under 3 months old. Move to the next age band only when the number reaches that age with a clean record."
+    }
+  ],
+  "daily_caps_by_age": [
+    {
+      "number_age": "Under 3 months",
+      "age_months_from": 0,
+      "age_months_to": 3,
+      "max_new_chats_per_day": 30,
+      "first_contact_max": 15,
+      "min_warm_up_days": 15,
+      "recommended_warm_up_days": 30,
+      "whatsapp_daily_limit": "not published",
+      "type": "recommendation"
+    },
+    {
+      "number_age": "3 to 12 months",
+      "age_months_from": 3,
+      "age_months_to": 12,
+      "max_new_chats_per_day": 50,
+      "first_contact_max": 25,
+      "min_warm_up_days": 15,
+      "recommended_warm_up_days": 30,
+      "whatsapp_daily_limit": "not published",
+      "type": "recommendation"
+    },
+    {
+      "number_age": "12 months or more",
+      "age_months_from": 12,
+      "age_months_to": null,
+      "max_new_chats_per_day": 150,
+      "first_contact_max": 75,
+      "min_warm_up_days": 15,
+      "recommended_warm_up_days": 30,
+      "whatsapp_daily_limit": "not published",
+      "type": "recommendation"
+    }
+  ],
+  "restriction_and_ban_adjustments": {
+    "rule": "Multiply the daily cap, round down to the nearest 10 (never below 10), and add days to the plan. The added days push back the day the number reaches its full daily cap. First contact still waits at least 15 days, 30 recommended.",
+    "restricted_once": {
+      "multiply_by": 0.7,
+      "days_added_to_plan": 15
+    },
+    "restricted_more_than_once": {
+      "multiply_by": 0.5,
+      "days_added_to_plan": 30,
+      "warm_up_start_per_day": 5,
+      "warm_up_add_per_week": 5
+    },
+    "banned_before": {
+      "multiply_by": 0.4,
+      "days_added_to_plan": 45,
+      "warm_up_start_per_day": 5,
+      "warm_up_add_per_week": 5
+    }
+  },
+  "ramp_after_first_contact": "Raise new chats in small steps from the first-contact size to the daily cap. Take at least two weeks, and move up only while new chats get replies. A number under 3 months old reaches 30 no sooner than day 60.",
+  "pacing": {
+    "warm_up": "Random gaps, never a fixed interval. Spread messages over daytime hours, for example 09:00 to 21:00.",
+    "outreach_gap_seconds": [
+      30,
+      90
+    ],
+    "outreach_batch_size": 10,
+    "outreach_batch_break_seconds": [
+      60,
+      300
+    ],
+    "hours": "Daytime on working days, in the recipient's time zone. Nothing at night."
+  },
+  "stop_signs": [
+    "WhatsApp shows \"Your account may be restricted soon\" or \"Your account is restricted right now\".",
+    "WhatsApp shows a pop-up counting your messages to people who have not replied.",
+    "WhatsApp shows a \"Temporarily banned\" message.",
+    "People ask \"who is this?\", ask you to stop, or complain.",
+    "Most new chats get no reply.",
+    "Messages keep failing to send: 1 in 5 or more over a week. At 1 in 10, slow down.",
+    "Linked devices are logged out without you doing it."
+  ],
+  "sources": [
+    {
+      "title": "WhatsApp Help Center: How to use WhatsApp responsibly",
+      "url": "https://faq.whatsapp.com/361005896189245",
+      "publisher": "WhatsApp",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "WhatsApp Help Center: About account bans",
+      "url": "https://faq.whatsapp.com/465883178708358",
+      "publisher": "WhatsApp",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "WhatsApp Help Center: About restricted accounts",
+      "url": "https://faq.whatsapp.com/717472490411581",
+      "publisher": "WhatsApp",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "WhatsApp Help Center: About temporarily banned accounts",
+      "url": "https://faq.whatsapp.com/1848531392146538",
+      "publisher": "WhatsApp",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "WhatsApp Help Center: About broadcast limits",
+      "url": "https://faq.whatsapp.com/1176325363861991",
+      "publisher": "WhatsApp",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "WhatsApp Help Center: How to block high volumes of unknown messages",
+      "url": "https://faq.whatsapp.com/3379690015658337",
+      "publisher": "WhatsApp",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "WhatsApp Terms of Service (effective 4 January 2021)",
+      "url": "https://www.whatsapp.com/legal/terms-of-service",
+      "publisher": "WhatsApp",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "Meta for Developers: Messaging limits (WhatsApp Business Platform)",
+      "url": "https://developers.facebook.com/docs/whatsapp/messaging-limits",
+      "publisher": "Meta",
+      "checked": "2026-11-10"
+    },
+    {
+      "title": "TechCrunch: WhatsApp will curb the number of messages people and businesses can send without a response (17 October 2025)",
+      "url": "https://techcrunch.com/2025/10/17/whatsapp-will-curb-the-number-of-messages-people-and-businesses-can-send-without-a-response/",
+      "publisher": "TechCrunch (press report of a WhatsApp statement)",
+      "checked": "2026-11-10"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+day,stage,max_new_chats,max_warm_up_messages,max_total_messages,rules
+1,Start,0,8,8,Use the official WhatsApp or WhatsApp Business app. Chat only with people who know this number. Keep every chat two-way.
+2,Start,0,8,8,Reply to everyone who writes to you. Use random gaps and spread messages across the day.
+3,Start,0,8,8,No messages to strangers. Ask before you add anyone to a group.
+4,Start,0,8,8,Write each message yourself and vary the wording. No bulk forwards.
+5,Start,0,8,8,"Send in daytime hours only, for example 09:00 to 21:00. Nothing at night."
+6,Start,0,8,8,"Give the number to people who may want to reach you, so they can message you first."
+7,Start,0,8,8,End of week 1. Any warning from WhatsApp means stop. See Red flags in README.md.
+8,Build,0,18,18,Raise warm-up to about 18 messages a day. Still no new chats.
+9,Build,0,18,18,Reply to everyone who writes to you. Let the other side start some chats.
+10,Build,0,18,18,"Use only the official app. WhatsApp says an unofficial app can get a number temporarily banned, and permanently banned if you keep using it."
+11,Build,0,18,18,Running several numbers? Each one needs its own warm-up. Numbers on one device and one IP address can be linked.
+12,Build,0,18,18,Never send the same text to many people. Vary every message.
+13,Build,0,18,18,"Random gaps, never a fixed interval. Spread messages over daytime hours, for example 09:00 to 21:00."
+14,Build,0,18,18,"End of week 2. Still no messages to strangers, scraped numbers or bought lists."
+15,Steady,0,28,28,"15-day minimum reached. Raise warm-up to about 28 a day. On this plan, keep warming: no new chats yet."
+16,Steady,0,28,28,"Keep chats two-way. If someone asks you to stop, remove them and do not message them again."
+17,Steady,0,28,28,"Ask before you add anyone to a group. If they leave, let them go."
+18,Steady,0,28,28,Think before you forward anything. No bulk forwards.
+19,Steady,0,28,28,"Spread the day's messages over daytime hours, not one burst."
+20,Steady,0,28,28,Keep warming every number you plan to use. Warm a spare number too.
+21,Steady,0,28,28,End of week 3. Check for any warning before you move on.
+22,Prepare,0,30,30,"Raise warm-up to about 30 a day, the warm-up ceiling for a number this new. Start the first-contact list: people who asked to hear from you or contacted you before."
+23,Prepare,0,30,30,"Clean the list. Remove duplicates, wrong numbers and anyone who has asked you to stop before."
+24,Prepare,0,30,30,Write first messages in your own words. Make each one personal. Add a clear opt-out line.
+25,Prepare,0,30,30,"Set sending hours: daytime on working days, in the recipient's time zone. Nothing at night."
+26,Prepare,0,30,30,"Set pacing for first contact: random gaps of 30 to 90 seconds, batches of about 10, breaks of 1 to 5 minutes."
+27,Prepare,0,30,30,Decide how you will track replies for each number. Messages that get no reply may count toward a WhatsApp limit.
+28,Prepare,0,30,30,Keep a second warmed number ready. Never put your only business number at risk.
+29,Prepare,0,30,30,"If WhatsApp warned or restricted the number during warm-up, do not start outreach. See After a restriction or ban in README.md."
+30,Prepare,0,30,30,"30 days done. Tomorrow is first contact: up to 15 new chats, warmest contacts first."
